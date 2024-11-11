@@ -58,17 +58,21 @@ This table provides daily stock performance data for each S&P 500 company, with 
 
 ## Data Pre Processing 
 
-In order to prepare the S&P 500 Stocks dataset, there were three main steps needed to perform.
+In order to prepare the S&P 500 Stocks dataset, there were three main steps needed to perform:
 
-The first step in the pre-processing process was using Python and the `pandas` library. Pandas is a powerful tool that allows data manipulation and analysis. With these tools, we were able to analyze the `sp500_companies` table and eliminate the `longbusinesssummary` column, as it was not needed for the analysis.
+1. **Data Cleaning for `sp500_companies` Table**:
+The first step in the preprocessing process involved using Python and the pandas library, which is commonly used for data manipulation and analysis. With these tools, we were able to analyze the `sp500_companies` table and eliminate the `longbusinesssummary` column, as it was not needed for the analysis.
 
-Regarding the `sp500_stocks` table, we identified that not every company enters the S&P 500 index at the same time. As a result, some dates had missing values. We decided to delete all rows that contained null values, ensuring consistency in the dataset.
+2. **Handling Missing Values in `sp500_stocks` Table**:
+For the `sp500_stocks` table, we identified that not every company enters the S&P 500 index at the same time, resulting in some dates with missing values. To ensure the consistency and completeness of the data, we decided to delete all rows containing null values.
 
+3. **Exporting the Processed Datasets**:
 Once these tasks were completed, the datasets were exported as CSV files with the following parameters:
 
-```python
-df.to_csv('sp500_data.csv', sep=';', index=False, quotechar='"', na_rep='NULL')
-```
+   ```python
+   sep=';', index=False, quotechar='"', na_rep='NULL'
+    ```
+The table sp500_index did not need further modification
 
 ## Data Modeling
 
@@ -117,3 +121,5 @@ CREATE TABLE sp500_stocks (
 The following diagram visually represents the structure of the relational schema, illustrating the relationships between the tables and how they are interconnected. It provides a clear overview of the data model and can help in understanding the database's design.
 
 ## Exploratory Data Analysis
+
+
