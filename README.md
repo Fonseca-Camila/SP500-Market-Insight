@@ -9,10 +9,21 @@ Table of contents
 
 ## Business problem
 
+The **S&P 500 Index** is one of the most widely followed stock market indices, representing the performance of 500 of the largest publicly traded companies in the United States. The index includes companies from a diverse set of sectors and industries, making it a key indicator of the health of the U.S. economy and stock market. The companies in the S&P 500 are selected based on their market capitalization, liquidity, and other criteria, with larger companies having a greater influence on the index's movements.
+
+This project aims to analyze the financial and operational performance of the companies within the **S&P 500 Index** by leveraging historical data on stock performance, financial health, and other business metrics. The analysis will focus on three key areas:
+
+- **Sector and Industry Performance**: Examining the contribution of each sector and industry to the overall performance of the S&P 500. This will help identify the sectors that are driving the market and which ones are underperforming.
+  
+- **Stock Price Volatility**: Assessing the volatility of stock prices for individual companies within the index. This analysis will help investors understand which stocks and sectors are more susceptible to price fluctuations and market uncertainty.
+
+- **Longitudinal Financial Health**: Tracking the financial health of S&P 500 companies over time by analyzing key metrics such as market capitalization, EBITDA, revenue growth, and profitability. This will allow stakeholders to identify stable, high-performing companies as well as those that may be facing financial difficulties.
+
 
 ## Data Collection
 
-You can access the dataset on [Kaggle]([https://www.kaggle.com/datasets](https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks/data)).
+The Kaggle dataset "S&P 500 Stocks" contains daily stock price data for all companies in the S&P 500 index, regularly updated to reflect the latest market performance. It includes stock prices, trading volumes, and other relevant metrics, which can be used for financial analysis, trend tracking, and market prediction. This dataset helps analyze individual company performance, overall market behavior, and sector performance over time. 
+You can access the dataset on [Kaggle](https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks/data).
 
 ### Schema Overview
 
