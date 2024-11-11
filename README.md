@@ -1,4 +1,4 @@
-# SP500
+# S&P 500 Market Insights: Analyzing Sector Performance, Volatility, and Financial Trends
 
 Table of contents
 1. Business problem
