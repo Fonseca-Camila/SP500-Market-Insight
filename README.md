@@ -133,4 +133,6 @@ The following diagram visually represents the structure of the relational schema
 
 ## Exploratory Data Analysis
 
-
+### Sector and Industry Performance Analysis
+### Stock Price Volatility Analysis
+### Longitudinal Financial Health of S&P 500 Companies
